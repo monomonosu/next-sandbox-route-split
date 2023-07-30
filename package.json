@@ -19,15 +19,13 @@
     ]
   },
   "dependencies": {
-    "@types/node": "20.4.2",
-    "@types/react": "18.2.15",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.10",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "^5.14.2",
     "next": "13.4.10",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "react-dom": "18.2.0"
   },
   "volta": {
     "node": "18.16.0",
@@ -41,13 +39,19 @@
     "@storybook/nextjs": "^7.0.27",
     "@storybook/react": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.46.0",
+    "eslint-config-next": "^13.4.12",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-storybook": "^0.6.12",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
-    "storybook": "^7.0.27"
+    "storybook": "^7.0.27",
+    "typescript": "^5.1.6"
   }
 }
