@@ -9,8 +9,13 @@ const meta: Meta<typeof BasicButton> = {
 export default meta;
 type Story = StoryObj<typeof BasicButton>;
 
+const handleClick = () => {
+  console.log("クリックされました。");
+};
+
 export const Primary: Story = {
   args: {
-    onClick: () => {},
+    label: "テストボタン",
+    onClick: handleClick,
   },
 };
