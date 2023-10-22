@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build && next export",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+  "type": "module",
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
       "npx eslint . --fix",
@@ -23,6 +24,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.2",
+    "express": "^4.18.2",
     "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0"
