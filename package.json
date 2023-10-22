@@ -12,7 +12,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "type": "module",
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
       "npx eslint . --fix",
